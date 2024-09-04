@@ -17,7 +17,7 @@ import { LuSchool } from "react-icons/lu";
 function Menu_colegios() {
   return (
     <div className="container">
-      <h1 className="text-center my-4">menu de la cafetería</h1>
+      <h1 className="text-center my-4">MENÚ DE LA CAFETERÍA</h1>
       <div className="row row-cols-1 row-cols-md-3 g-4">
         <div className="col">
           <div className="card">
@@ -98,7 +98,7 @@ function Menu_colegios() {
           </div>
         </div>
       </div>
-      <h1 className="text-center my-4">menu de la frutería</h1>
+      <h1 className="text-center my-4">MENÚ DE LA FRUTERÍA</h1>
       <div className="row row-cols-1 row-cols-md-3 g-4">
         <div className="col">
           <div className="card">
