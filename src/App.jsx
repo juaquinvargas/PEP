@@ -6,6 +6,7 @@ import Inicio_sesion from "./paginas/inicio_sesion";
 import Registro from "./paginas/registro";
 import Colegios from "./paginas/colegios";
 import Menu_cole from "./paginas/menu_colegio";
+import Menu_colesalle from "./paginas/menu_colegiolasalle";
 import Perfil from "./paginas/perfil";
 import Quienes_somos from "./paginas/quienes_somos";
 import Conocer from "./paginas/conocer";
@@ -20,6 +21,7 @@ export default function App() {
         <Route exact path="/registro" element={<Registro />} />
         <Route exact path="/colegios" element={<Colegios />} />
         <Route exact path="/menu_colegio" element={<Menu_cole />} />
+        <Route exact path="/menu_colegiolasalle" element={<Menu_colesalle />} />
         <Route exact path="/perfil" element={<Perfil />} />
         <Route exact path="/quienes_somos" element={<Quienes_somos />} />"
         <Route exact path="/conocer" element={<Conocer />} />

@@ -5,7 +5,7 @@ function Registro_colegio() {
   return (
     <div className="list-group">
       <button type="button" className="list-group-item list-group-item-action">
-        <Link className="nav-link active" to="/menu_colegio">
+        <Link className="nav-link active" to="/menu_colegiolasalle">
           la salle
         </Link>
       </button>
